@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheLongestSequence", "FindTheLongestSequence\FindTheLongestSequence.csproj", "{BA5FC45C-2F96-4694-840C-518F676A3AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFindTheLongestSequence", "TestFindTheLongestSequence\TestFindTheLongestSequence.csproj", "{FEA1033B-304A-45AB-90C2-442E01990498}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA5FC45C-2F96-4694-840C-518F676A3AB5} = {BA5FC45C-2F96-4694-840C-518F676A3AB5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA5FC45C-2F96-4694-840C-518F676A3AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5FC45C-2F96-4694-840C-518F676A3AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5FC45C-2F96-4694-840C-518F676A3AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5FC45C-2F96-4694-840C-518F676A3AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA1033B-304A-45AB-90C2-442E01990498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA1033B-304A-45AB-90C2-442E01990498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA1033B-304A-45AB-90C2-442E01990498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA1033B-304A-45AB-90C2-442E01990498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {955FDA8B-0211-4A69-9D32-F93F679CB93C}
+	EndGlobalSection
+EndGlobal
